@@ -12,13 +12,13 @@
         <meta name="author" content="Serge Tahé">
       
       
-        <link rel="canonical" href="https://stahe.github.io/de-php4mvc-janvier-2004/verwendung-der-mvc-architektur-in-web-php-anwendungen.html">
+        <link rel="canonical" href="https://stahe.github.io/de-php4mvc-janvier-2004/verwendung-der-architektur-mvc-in-web-php-anwendungen.html">
       
       
         <link rel="prev" href="index.html">
       
       
-        <link rel="next" href="ein-mvc-entwicklungsansatz-fur-webphp.html">
+        <link rel="next" href="ein-entwicklungsansatz-fur-web-php-anwendungen-im-rahmen-der-mvc-architektur.html">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>1. Verwendung der MVC-Architektur in Web-/PHP-Anwendungen - MVC-Entwicklungsmethodik für eine PHP4-Webanwendung</title>
+        <title>1. Verwendung der Architektur MVC in Web-/PHP-Anwendungen - MVC-Entwicklungsmethodik für eine PHP4-Webanwendung</title>
       
     
     
@@ -94,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#1-verwendung-der-mvc-architektur-in-web-php-anwendungen" class="md-skip">
+        <a href="#1-verwendung-der-architektur-mvc-in-web-php-anwendungen" class="md-skip">
           Skip to content
         </a>
       
@@ -130,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              1. Verwendung der MVC-Architektur in Web-/PHP-Anwendungen
+              1. Verwendung der Architektur MVC in Web-/PHP-Anwendungen
             
           </span>
         </div>
@@ -314,14 +314,14 @@
         
       
       
-      <a href="verwendung-der-mvc-architektur-in-web-php-anwendungen.html" class="md-nav__link md-nav__link--active">
+      <a href="verwendung-der-architektur-mvc-in-web-php-anwendungen.html" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    1. Verwendung der MVC-Architektur in Web-/PHP-Anwendungen
+    1. Verwendung der Architektur MVC in Web-/PHP-Anwendungen
   
 
     
@@ -342,14 +342,14 @@
   
   
     <li class="md-nav__item">
-      <a href="ein-mvc-entwicklungsansatz-fur-webphp.html" class="md-nav__link">
+      <a href="ein-entwicklungsansatz-fur-web-php-anwendungen-im-rahmen-der-mvc-architektur.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    2. Ein MVC-Entwicklungsansatz für Web/PHP
+    2. Ein Entwicklungsansatz für Web-/PHP-Anwendungen im Rahmen der MVC-Architektur
   
 
     
@@ -396,14 +396,14 @@
   
   
     <li class="md-nav__item">
-      <a href="eine-anschauliche-anwendung.html" class="md-nav__link">
+      <a href="ein-anschauliches-beispiel.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    4. Eine anschauliche Anwendung
+    4. Ein anschauliches Beispiel
   
 
     
@@ -433,38 +433,52 @@
 
 
 
-<p><a id="refheading29946107341754"></a></p>
-<h1 id="1-verwendung-der-mvc-architektur-in-web-php-anwendungen">1. <span style="color: #365f91">Verwendung der MVC-Architektur in Web-/PHP-Anwendungen</span></h1>
-<p>Das PDF des Dokuments ist |<a href="https://1drv.ms/b/c/f53a919f43d27eb5/IQA7EzM5qZF8QoH-Mt6QeUgoAd1hOnUfe1YF2XFqdBdY6X8?e=eP1Lc4">HIER</a>| verfügbar.</p>
-<p>Der Code für das Dokument ist |<a href="https://1drv.ms/u/c/f53a919f43d27eb5/IQDgz1c4n6lMQ4WX_YSZCzLsAYqKTSV5K2jUvNmleRC5GWo?e=lksqZO">HIER</a>| verfügbar.</p>
-<p>Das MVC-Muster (Model-View-Controller) zielt darauf ab, die Präsentations-, Verarbeitungs- und Datenzugriffsebenen klar voneinander zu trennen. Eine Webanwendung, die diesem Muster folgt, ist wie folgt aufgebaut:</p>
+<p><span id="refheading29946107341754" name="refheading29946107341754" class="odt-bookmark-anchor"></span></p>
+<h1 id="1-verwendung-der-architektur-mvc-in-web-php-anwendungen">1. <span style="color: #365f91">Verwendung der Architektur MVC in Web-/PHP-Anwendungen</span></h1>
+<p>Das PDF des Dokuments ist verfügbar |<a href="https://1drv.ms/b/c/f53a919f43d27eb5/IQA7EzM5qZF8QoH-Mt6QeUgoAd1hOnUfe1YF2XFqdBdY6X8?e=Gy3LXD">HIER</a>|.</p>
+<p>Die Quellcodes des Dokuments sind unter |<a href="https://1drv.ms/u/c/f53a919f43d27eb5/IQDgz1c4n6lMQ4WX_YSZCzLsAYqKTSV5K2jUvNmleRC5GWo?e=aZjnJK">HIER</a>| verfügbar.</p>
+<p>Das Modell MVC (Model-View-Controller) zielt darauf ab, die Schichten Präsentation, Verarbeitung und Datenzugriff klar voneinander zu trennen. Eine Webanwendung, die diesem Modell entspricht, wird wie folgt aufgebaut:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000400000000BB4D654A99.png" width="512" height="94" style="display:inline-block; margin:4px;width:13.547cm;height:2.475cm;" class="odt-zoomable" data-zoom-src="images/1000000000000400000000BB4D654A99.png" /></td></tr></table>
 
-<p>Eine solche Architektur wird oft als 3-Tier- oder 3-Level-Architektur bezeichnet:</p>
+<p>Eine solche Architektur wird oft als 3-Tier-Architektur oder 3-Schichten-Architektur bezeichnet:</p>
 <ul>
-<li>Die Benutzeroberfläche ist die Ansicht (V)</li>
-<li>die Anwendungslogik ist der Controller (C)</li>
-<li>die Datenquellen bilden das Modell (M)</li>
+  <li>Die Benutzeroberfläche ist die Ansicht (V)
+  </li>
+  <li>die Anwendungslogik ist der Controller (C)
+  </li>
+  <li>die Datenquellen sind das Modell (M)
+  </li>
 </ul>
-<p><strong>Die Benutzeroberfläche</strong> ist oft ein Webbrowser, es kann sich aber auch um eine eigenständige Anwendung handeln, die über das Netzwerk HTTP-Anfragen an den Webdienst sendet und die empfangenen Ergebnisse formatiert. Die <strong>Anwendungslogik</strong> besteht aus Skripten, die Benutzeranfragen verarbeiten. Die <strong>Datenquelle</strong> ist oft eine Datenbank, es können aber auch einfache Flatfiles, ein LDAP-Verzeichnis, ein Remote-Webdienst usw. sein. Es liegt im Interesse des Entwicklers, ein hohes Maß an Unabhängigkeit zwischen diesen drei Entitäten zu wahren, damit bei einer Änderung an einer der drei Entitäten die anderen beiden nicht oder nur minimal angepasst werden müssen.</p>
-<p>Die MVC-Architektur eignet sich gut für Webanwendungen, die in objektorientierten Sprachen geschrieben sind. Die Sprache PHP (4.x) ist nicht objektorientiert. Dennoch kann man sich bemühen, den Code und die Anwendungsarchitektur so zu strukturieren, dass sie sich enger am MVC-Modell ausrichten:</p>
+
+<p><strong>Die Benutzeroberfläche</strong> ist oft ein Webbrowser, es könnte sich aber auch um eine eigenständige Anwendung handeln, die über das Netzwerk Anfragen an den Webdienst sendet und die von diesem zurückgesendeten Ergebnisse aufbereitet. Die <strong>Anwendungslogik</strong> besteht aus Skripten, die die Anfragen des Benutzers verarbeiten. <strong>Die Datenquelle</strong> ist oft eine Datenbank, es können aber auch einfache Textdateien, ein Verzeichnis LDAP, ein entfernter Webdienst usw. sein. Der Entwickler sollte darauf achten, eine weitgehende Unabhängigkeit zwischen diesen drei Komponenten zu wahren, damit bei einer Änderung an einer Komponente die beiden anderen nicht oder nur in geringem Umfang angepasst werden müssen.</p>
+<p>Die Architektur MVC eignet sich gut für Webanwendungen, die in objektorientierten Sprachen geschrieben sind. Die Sprache PHP (4.x) ist nicht objektorientiert. Man kann sich jedoch bemühen, den Code und die Architektur der Anwendung so zu strukturieren, dass sie dem Modell MVC näherkommt:</p>
 <ul>
-<li>Wir werden die Geschäftslogik der Anwendung in Modulen unterbringen, die von denen getrennt sind, die für die Verwaltung des Anfrage-Antwort-Dialogs zuständig sind. Die MVC-Architektur sieht dann wie folgt aus:</li>
+  <li>Die Geschäftslogik der Anwendung wird in separate Module ausgelagert, die von den Modulen getrennt sind, die für die Steuerung des Anfrage-Antwort-Dialogs zuständig sind. Die Architektur MVC sieht dann wie folgt aus:
+  </li>
 </ul>
+
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000061F000001BFD28D9CBA.png" width="680" height="194" style="display:inline-block; margin:4px;width:17.999cm;height:5.135cm;" class="odt-zoomable" data-zoom-src="images/100000000000061F000001BFD28D9CBA.png" /></td></tr></table>
 
-<p>Innerhalb des Blocks [Anwendungslogik] können wir unterscheiden zwischen:</p>
+<p>Im Block [Logique Applicative] lassen sich unterscheiden:</p>
 <ul>
-<li>das Hauptprogramm oder den Controller, der als Einstiegspunkt der Anwendung dient.</li>
-<li>den [Actions]-Block, eine Reihe von Skripten, die für die Ausführung der vom Benutzer angeforderten Aktionen zuständig sind.</li>
-<li>den Block [Business Classes], der die für die Logik der Anwendung erforderlichen PHP-Module gruppiert. Diese sind unabhängig vom Client. Beispielsweise muss sich die Funktion, die anhand bestimmter als Parameter übergebener Informationen eine Steuer berechnet, nicht darum kümmern, wie diese Informationen gewonnen wurden.</li>
-<li>den Block [Data Access Classes], der die PHP-Module enthält, die die vom Controller benötigten Daten abrufen, häufig persistente Daten (Datenbanken, Dateien usw.)</li>
-<li>die View-Generatoren, die Views als Antwort an den Client senden. </li>
+  <li>das Hauptprogramm oder den Controller, der den Einstieg in die Anwendung bildet.
+  </li>
+  <li>den Block [Actions], eine Sammlung von Skripten, die für die Ausführung der vom Benutzer angeforderten Aktionen zuständig sind.
+  </li>
+  <li>den Block [Classes métier], der die für die Logik der Anwendung erforderlichen PHP-Module enthält. Diese sind vom Client unabhängig. Beispielsweise muss sich die Funktion, die anhand bestimmter, als Parameter übergebener Informationen eine Steuer berechnet, nicht darum kümmern, wie diese Informationen gewonnen wurden.
+  </li>
+  <li>Der Block [Classes d&#x27;accès aux données], der die PHP-Module umfasst, die die für den Controller erforderlichen Daten abrufen, häufig persistente Daten (BD, Dateien, ...)
+  </li>
+  <li>die Generatoren für die Ansichten, die als Antwort an den Client gesendet werden. 
+  </li>
 </ul>
-<p>In den einfachsten Fällen lässt sich die Anwendungslogik oft auf zwei Module reduzieren:</p>
+
+<p>In den einfachsten Fällen beschränkt sich die Anwendungslogik oft auf zwei Module:</p>
 <ul>
-<li>das [Control]-Modul, das die Client-Server-Kommunikation abwickelt: Bearbeitung der Anfrage, Generierung verschiedener Antworten</li>
-<li>das [Business-Logik]-Modul, das vom [Controller]-Modul zu verarbeitende Daten empfängt und diesem im Gegenzug Ergebnisse liefert. Dieses [Business-Logik]-Modul verwaltet dann selbst den Zugriff auf persistente Daten.</li>
+  <li>das Modul [contrôle], das den Client-Server-Dialog gewährleistet: Verarbeitung der Anfrage, Generierung der verschiedenen Antworten
+  </li>
+  <li>das Modul [métier], das vom Modul [contrôle] zu verarbeitende Daten empfängt und ihm im Gegenzug Ergebnisse liefert. Dieses Modul [métier] verwaltet dann selbst den Zugriff auf die persistenten Daten.
+  </li>
 </ul>
 
 

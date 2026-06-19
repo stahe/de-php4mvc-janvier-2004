@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://stahe.github.io/de-php4mvc-janvier-2004/index.html</loc>
-         <lastmod>2026-05-25</lastmod>
+         <lastmod>2026-06-19</lastmod>
+    </url>
+    <url>
+         <loc>https://stahe.github.io/de-php4mvc-janvier-2004/ein-anschauliches-beispiel.html</loc>
+         <lastmod>2026-06-19</lastmod>
+    </url>
+    <url>
+         <loc>https://stahe.github.io/de-php4mvc-janvier-2004/ein-entwicklungsansatz-fur-web-php-anwendungen-im-rahmen-der-mvc-architektur.html</loc>
+         <lastmod>2026-06-19</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/de-php4mvc-janvier-2004/ein-generischer-controller.html</loc>
-         <lastmod>2026-05-25</lastmod>
+         <lastmod>2026-06-19</lastmod>
     </url>
     <url>
-         <loc>https://stahe.github.io/de-php4mvc-janvier-2004/ein-mvc-entwicklungsansatz-fur-webphp.html</loc>
-         <lastmod>2026-05-25</lastmod>
-    </url>
-    <url>
-         <loc>https://stahe.github.io/de-php4mvc-janvier-2004/eine-anschauliche-anwendung.html</loc>
-         <lastmod>2026-05-25</lastmod>
-    </url>
-    <url>
-         <loc>https://stahe.github.io/de-php4mvc-janvier-2004/verwendung-der-mvc-architektur-in-web-php-anwendungen.html</loc>
-         <lastmod>2026-05-25</lastmod>
+         <loc>https://stahe.github.io/de-php4mvc-janvier-2004/verwendung-der-architektur-mvc-in-web-php-anwendungen.html</loc>
+         <lastmod>2026-06-19</lastmod>
     </url>
 </urlset>
